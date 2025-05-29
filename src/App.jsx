@@ -8,7 +8,7 @@ const App = () => {
   const [userVariant, setUserVariant] = useState({ bool: true, id: "" });
   //  API URI's
   // const BASE_URL = "http://localhost:3000/api";
-  const BASE_URL = "https://adam-1-jcrl.onrender.com";
+  const BASE_URL = "https://adam-1-jcrl.onrender.com/api";
   const getUsers = `${BASE_URL}/users`;
   const postUser = `${BASE_URL}/addUser`;
 
